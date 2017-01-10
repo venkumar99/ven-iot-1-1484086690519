@@ -1,0 +1,11 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: ven-iot-1
+  host: ven-iot-1
+  disk_quota: 1024M
+  services:
+  - ven-iot-1-cloudantNoSQLDB
+  - ven-iot-1-iotf-service
