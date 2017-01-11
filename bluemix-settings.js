@@ -53,7 +53,7 @@ var settings = module.exports = {
 
     functionGlobalContext: {
     	crc:require('crc'),
-    	crc:require('node-random')
+    	rdm:require('node-random')
     },
 
     storageModule: require("./couchstorage")
